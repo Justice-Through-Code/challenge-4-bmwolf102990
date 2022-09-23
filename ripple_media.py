@@ -42,8 +42,7 @@ def box_office_data():
     remaining_50_list.append("Anywhere But Here")
     # Let's use conditional logic again to check if the last movie in the list is now "Anywhere But Here".
     # Use 'indexing' and conditional logic to check.
-    if remaining_50_list.index("Anywhere But Here"):
-        print(True)
+    print(remaining_50_list[-1] == "Anywhere But Here")
     # NOTE: if there are 50 movies in the list, what's the index of the final movie?
 
     # 1.4 TODO: Let's make sure "remaining_50_list" has exactly 50 movie titles.
